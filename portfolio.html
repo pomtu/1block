@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<body background="image.png">
+	<style>
+	.body {
+		overflow: hidden;
+		}
+	.center {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		font-family: Helvetica, Helvetica;
+		font-size: 3em;
+		color: white;
+		z-index: 999;
+	}
+
+	.small {
+		position: absolute;
+		top: 57%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		font-family: Helvetica, Helvetica;
+		font-size: 1.5em;
+		color: white;
+		z-index: 999;
+	}
+		.button {
+			background-color: transparent;
+			border: black;
+			cursor: pointer;
+			display: inline-block;
+			font-size: 1.2em;
+			padding: 1em 2em;
+			opacity: 0%;
+		}
+
+		.button:hover {
+			background-color: #f2f2f2;
+			opacity: 50%;
+		}
+
+	</style>
+</head>
+<body>
+	<div style="display: flex; height: 100vh;">
+		<button class="button" style="flex: 1; border-right: 1px solid black;" onclick="window.location.href='portfolio2.html'">Exemples de projet</button>
+		<div class="line"></div>
+		<button class="button" style="flex: 1; border-left: 1px solid black;" onclick="window.location.href='portfolio3.html'">CV</button>
+		<div class="center">Alban Martin.</div>
+		<div class="small">Choisissez l'information voulue.</div>
+	</div>
+
+
+</body>
+</html>
